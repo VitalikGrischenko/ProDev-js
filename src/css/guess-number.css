@@ -1,7 +1,4 @@
-.guess__number{
-    display: flex;
-    justify-content: center;
-}
+
 
 .guess-number__box{
     display: flex;
@@ -9,17 +6,21 @@
 }
 
 .guess-number__title{
-    margin-left: 382px;
-    margin-right: 382px;
+    text-align: center;
+    /* margin-left: 382px;
+    margin-right: 382px; */
 }
 
 .guess-number__input{
-    margin-left: 257px;
+
+    /* margin-left: 257px; */
+
 }
 
 
 
 .guess-number__text{
     margin-left: 202px;
-    margin-right: 257px;
+    /* margin-right: 257px; */
+    /* text-align: center; */
 }

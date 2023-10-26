@@ -1,0 +1,10 @@
+.football{
+    display: flex;
+    justify-content: center;
+}
+
+.football__title{
+    margin-left: 508px;
+    margin-right: 508px;
+    text-align: center;
+}

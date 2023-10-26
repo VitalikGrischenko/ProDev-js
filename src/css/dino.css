@@ -1,0 +1,9 @@
+.dino{
+    display: flex;
+    justify-content: center;
+}
+
+.dino__title{
+    margin-left: 472px;
+    margin-right: 473px;
+}

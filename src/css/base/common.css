@@ -1,7 +1,15 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
+}
+
+.container {
+  width: 1090px;
+  padding-right: 185px;
+  padding-left: 185px;
+  margin-left: auto;
+  margin-right: auto;
 }

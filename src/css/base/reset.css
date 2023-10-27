@@ -27,6 +27,7 @@ a {
 button {
   cursor: pointer;
   border: none;
+  outline: none;
 }
 
 img {
@@ -37,6 +38,7 @@ img {
 
 input {
   outline: none;
+  border: none;
 }
 textarea {
   outline: none;

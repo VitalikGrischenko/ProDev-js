@@ -1,26 +1,62 @@
-
-
-.guess-number__box{
-    display: flex;
-    justify-content: center;
+.guess__number {
+  padding-bottom: 66px;
 }
 
-.guess-number__title{
-    text-align: center;
-    /* margin-left: 382px;
-    margin-right: 382px; */
+.guess-number__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
 }
 
-.guess-number__input{
-
-    /* margin-left: 257px; */
-
+.guess-number__title {
+  text-align: center;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
+.guess-number__input {
+  border-radius: 20px;
+  background: #d7d7d7;
+  padding: 10px 45px 10px 10px;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+  width: 115px;
+}
 
+.guess-number__input::placeholder {
+  color: #7e7e7e;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
-.guess-number__text{
-    margin-left: 202px;
-    /* margin-right: 257px; */
-    /* text-align: center; */
+.guess-number__text {
+  color: #039900;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 202px;
+}
+
+.guess-number__label {
+  position: relative;
+}
+
+.guess-number-search__button {
+  position: absolute;
+  right: -3px;
+  top: 0;
+  height: 40px;
+  padding: 10px;
+  border-radius: 0px 20px 20px 0px;
+  background: #000;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

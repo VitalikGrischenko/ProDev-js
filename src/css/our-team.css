@@ -1,0 +1,45 @@
+.team {
+  padding-bottom: 66px;
+}
+
+.container {
+}
+
+.team__title {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.team__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 36px;
+}
+
+.team__item {
+}
+
+.team__img {
+    text-align: center;
+}
+
+.student-name__title {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.team__description {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}

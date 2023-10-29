@@ -1,0 +1,50 @@
+.bigger-number {
+  padding-bottom: 66px;
+}
+
+.container {
+}
+
+.bigger-number__title {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.bigger-number__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.bigger-number__item {
+}
+
+.bigger-number__input {
+  border-radius: 20px;
+  background: #d7d7d7;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px 20px;
+  width: 135px;
+}
+.bigger-number__input::placeholder {
+  color: #7e7e7e;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bigger-number__subtitle {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}

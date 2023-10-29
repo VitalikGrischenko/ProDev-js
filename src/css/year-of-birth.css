@@ -1,8 +1,8 @@
-.bith {
+.birth {
   padding-bottom: 66px;
 }
 
-.bith__title {
+.birth__title {
   text-align: center;
   color: #000;
   font-size: 16px;
@@ -12,7 +12,7 @@
   margin-bottom: 36px;
 }
 
-.bith__input {
+.birth__input {
   /* position: relative; */
   padding: 10px 45px 10px 10px;
   align-items: flex-start;
@@ -28,11 +28,18 @@
   box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
+.birth__input::placeholder {
+  color: #7e7e7e;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .year-of-birth__label {
     position: relative;
 }
 
-.bith-search__button {
+.birth-search__button {
   position: absolute;
   right: -3px;
   top: 0;
@@ -46,23 +53,17 @@
   justify-content: center;
 }
 
-.bith__input::placeholder {
-  color: #7e7e7e;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.bith__text {
-  color: #039900;
+.birth__text {
+  color: #000;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 149px;
+  /* margin-left: 149px; */
+  margin-left: 160px;
 }
 
-.bith__box {
+.birth__box {
   display: flex;
   justify-content: center;
   align-items: center;

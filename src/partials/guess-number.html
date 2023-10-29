@@ -3,8 +3,8 @@
       <h2 class="guess-number__title">Вгадай число, яке загадав комп’ютер</h2>
       <div class="guess-number__box">
         <label class="guess-number__label">
-          <input type="number" class="guess-number__input" placeholder="Введіть число"/>
-        <button type="button" class="guess-number-search__button">
+          <input type="text" class="guess-number__input" placeholder="Введіть число" data-input="guess-number"/>
+        <button type="button" class="guess-number-search__button" data-button="guess-number">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -26,7 +26,7 @@
           </svg>
         </button>
         </label>
-        <p class="guess-number__text">Вітаю, ви вгадали число! (number) </p>
+        <p class="guess-number__text" data-text="guess-number">Введіть число від 1 до 1000!</p>
       </div>
     </div>
   </section>

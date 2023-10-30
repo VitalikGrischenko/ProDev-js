@@ -4,28 +4,28 @@
     <div class="paper-block">
       <ul class="paper__list">
         <li class="paper__item">
-          <button type="button" class="paper__button">
+          <button type="button" class="paper__button" data-button="stone">
             <img src="../img/paper/stone.png" alt="stone" />
           </button>
         </li>
         <li class="paper__item">
-          <button type="button" class="paper__button">
+          <button type="button" class="paper__button" data-button="scissors">
             <img src="../img/paper/scissors.png" alt="scissors" />
           </button>
         </li>
         <li class="paper__item">
-          <button type="button" class="paper__button">
+          <button type="button" class="paper__button" data-button="paper">
             <img src="../img/paper/paper.png" alt="paper" />
           </button>
         </li>
       </ul>
       <div class="paper-score-block">
         <h2 class="paper-score__title">Рахунок:</h2>
-        <p class="score__text">Комп’ютер - <span>0</span></p>
-        <p class="score__text">Ви - <span>0</span></p>
+        <p class="score__text">Комп’ютер - <span data-result="computer">0</span></p>
+        <p class="score__text">Ви - <span data-result="user">0</span></p>
       </div>
     </div>
-    <p class="paper-round-ruslt__text">Ви виграли раунд!</p>
+    <p class="paper-round-ruslt__text" data-text="paper">Ви не натиснули кнопку!</p>
     <button type="button" class="computer-option__button">
       Варіант комп’ютера
     </button>

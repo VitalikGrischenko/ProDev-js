@@ -24,3 +24,5 @@ if(cactusLeft <50 && cactusLeft > 0 && dinoTop >= 140) {
     alert("Game Over")
 }
 }, 10)
+
+

@@ -1,28 +1,90 @@
 <section class="team">
   <div class="container">
     <h2 class="team__title">Наша команда</h2>
-    <ul class="team__list">
-      <li class="team__item">
-        <img src="..." alt="student" class="team__img"/>
-        <h3 class="student-name__title">Семен</h3>
-        <p class="team__description">
-          Інформація про роботу, яку він/вона виконав/ла
-        </p>
-      </li>
-      <li class="team__item">
-        <img src="..." alt="student" class="team__img"/>
-        <h3 class="student-name__title">Ілля</h3>
-        <p class="team__description">
-          Інформація про роботу, яку він/вона виконав/ла
-        </p>
-      </li>
-      <li class="team__item">
-        <img src="..." alt="student" class="team__img"/>
-        <h3 class="student-name__title">Віталій</h3>
-        <p class="team__description">
-          Інформація про роботу, яку він/вона виконав/ла
-        </p>
-      </li>
-    </ul>
+    <div class="team-slider" data-slider="team">
+      <button type="button" class="team-slider__button" data-button="left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="52"
+          height="102"
+          viewBox="0 0 52 102"
+          fill="none"
+        >
+          <path d="M51 1L1 51L51 101" stroke="black" />
+        </svg>
+      </button>
+      <ul class="team__list" data-list="team">
+        <li class="team__item is-show">
+          <img
+            src="https://i.stack.imgur.com/Bzcs0.png"
+            alt="student"
+            class="team__img"
+          />
+          <h3 class="student-name__title">Семен</h3>
+          <p class="team__description">
+            Інформація про роботу, яку він/вона виконав/ла
+          </p>
+        </li>
+        <li class="team__item">
+          <img
+            src="https://i.stack.imgur.com/Bzcs0.png"
+            alt="student"
+            class="team__img"
+          />
+          <h3 class="student-name__title">Ілля</h3>
+          <p class="team__description">
+            Інформація про роботу, яку він/вона виконав/ла
+          </p>
+        </li>
+        <li class="team__item">
+          <img
+            src="https://i.stack.imgur.com/Bzcs0.png"
+            alt="student"
+            class="team__img"
+          />
+          <h3 class="student-name__title">Віталій</h3>
+          <p class="team__description">
+            Інформація про роботу, яку він/вона виконав/ла
+          </p>
+        </li>
+      </ul>
+      <button type="button" class="team-slider__button" data-button="right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="52"
+          height="102"
+          viewBox="0 0 52 102"
+          fill="none"
+        >
+          <path d="M1 1L51 51L1 101" stroke="black" />
+        </svg>
+      </button>
+    </div>
+    <div class="team-pagination">
+      <ul class="team-pagonation__list">
+        <li class="team-pagination__item">
+          <button
+            type="button"
+            class="team-pagination__button team-active-pagination"
+            data-button="pagination"
+            onclick="showText(4)"
+          ></button>
+        </li>
+        <li class="team-pagination__item">
+          <button
+            type="button"
+            class="team-pagination__button"
+            data-button="pagination"
+          ></button>
+        </li>
+        <li class="team-pagination__item">
+          <button
+            type="button"
+            class="team-pagination__button"
+            data-button="pagination"
+          ></button>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>

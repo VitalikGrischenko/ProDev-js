@@ -1,5 +1,5 @@
 .team {
-  padding-bottom: 66px;
+  padding-bottom: 70px;
 }
 
 .container {
@@ -21,10 +21,18 @@
 }
 
 .team__item {
+  display: none;
+}
+
+.is-show {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team__img {
-    text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .student-name__title {
@@ -42,4 +50,38 @@
   font-weight: 400;
   line-height: normal;
   margin-top: 20px;
+}
+
+.team-slider__button {
+  background-color: transparent;
+}
+
+.team-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 328px;
+}
+
+.team-pagination {
+  margin-top: 24px;
+}
+
+.team-pagonation__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.team-pagination__button {
+  width: 18px;
+  height: 3px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+
+.team-active-pagination {
+  width: 30px;
+  background-color: #797979;
 }

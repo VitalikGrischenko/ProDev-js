@@ -5,4 +5,9 @@ import './js/our-team';
 import './js/our-team';
 import './js/bigger-number';
 import './js/bigger-number';
+
+
+
+import './js/calculator';
+
 import './js/dino';

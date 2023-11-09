@@ -10,7 +10,6 @@
   text-align: center;
 }
 
-
 .game {
   width: 721px;
   height: 241px;
@@ -71,7 +70,11 @@ animation:cactusMov  1.6s infinite linear;
 
 @keyframes cactusMov  {
   0%{
+
     left:721px
+
+    left:707px
+
   }
   100%{
     left:0px

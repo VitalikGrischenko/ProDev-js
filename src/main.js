@@ -5,4 +5,6 @@ import './js/our-team';
 import './js/our-team';
 import './js/bigger-number';
 import './js/bigger-number';
+import './js/footer-modal';
+import './js/welcome-modal';
 // import './js/dino';

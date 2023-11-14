@@ -1,5 +1,26 @@
 const dino = document.getElementById("dino-game");
-const cactus = document.getElementById("cactus")
+const cactus = document.getElementById("cactus");
+const start = document.querySelector(".game")
+
+document.addEventListener("keydown", function(event) {
+    mov();
+});
+
+function mov() {
+    if(cactus.classList != "cactusMov") {
+    cactus.classList.add("cactusMov");
+
+    // setTimeout(function (){
+    //     cactus.classList.remove("cactusMov")
+    // }, 300);
+  }
+}
+
+
+
+
+
+
 
     document.addEventListener("keydown", function(event) {
         jump();
@@ -24,10 +45,12 @@ const cactus = document.getElementById("cactus")
         let dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"))
         let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"))
     
-    if(cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
+    if(cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140 && isAlive   ) {
+
         alert("Game Over")
         alert(restart())
     
     }
     })
+
 

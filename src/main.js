@@ -11,4 +11,4 @@ import './js/footer-modal';
 
 import './js/calculator';
 
-// import './js/dino';
+import './js/dino';

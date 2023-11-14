@@ -12,3 +12,5 @@ import './js/welcome-modal';
 // import './js/calculator';
 import './js/football';
 
+import './js/calculator';
+

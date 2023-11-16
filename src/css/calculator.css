@@ -55,6 +55,11 @@
   justify-content: center;
 }
 
+.calculator__button.color-light {
+  background-color: rgba(138, 206, 207, 1)  ;
+  color: white;
+}
+
 .calculator__result {
   padding: 5px 10px;
   border-radius: 20px;

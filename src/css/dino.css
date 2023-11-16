@@ -37,9 +37,9 @@
   top: 151px;
   left: 700px;
 
-background-image: url(../img/dino/cactus.png);
+background-image: url('../img/dino/cactus.png');
 background-size: 20px 40px;
-animation:cactusMov  1.6s infinite linear;
+
 }
 
 
@@ -65,21 +65,58 @@ animation:cactusMov  1.6s infinite linear;
   }
 }
 
-
-
+.cactusMov{
+  animation:cactusMov  1.8s infinite linear;
+}
 
 @keyframes cactusMov  {
   0%{
 
 
+    left:721px;
 
-
-
-
-    left:707px;
 
 
   }
+  5%{
+    left:681px;
+  }
+  10%{
+    left:621px;
+  }
+  20%{
+ left: 581px;
+  }
+  30%{
+    left: 521;
+  }
+  40%{
+    left:481px;
+  }
+  50%{
+    left:421px;
+  }
+  55%{
+    left: 381px;
+  }
+  60%{
+    left: 321px;
+  }
+  70%{
+    left: 281px;
+  }
+  80%{
+    left:221px;
+  }
+  85%{
+    left: 181px;
+  }
+  90%{
+    left: 121;
+  }
+95%{
+  left: 60.5px;
+}
   100%{
     left:0px
   }

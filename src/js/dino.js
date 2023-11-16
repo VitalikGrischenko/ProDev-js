@@ -2,6 +2,10 @@ const dino = document.getElementById("dino-game");
 const cactus = document.getElementById("cactus");
 const start = document.querySelector(".game")
 
+start.addEventListener("click", () => {
+
+
+
 document.addEventListener("keydown", function(event) {
     mov();
 });
@@ -16,12 +20,6 @@ function mov() {
   }
 }
 
-
-
-
-
-
-
     document.addEventListener("keydown", function(event) {
         jump();
     });
@@ -35,7 +33,7 @@ function mov() {
         }, 300);
       }
     }
-    
+})
     function restart( ) {
         document.location.reload()
     }

@@ -13,7 +13,7 @@
 .game {
   width: 721px;
   height: 241px;
-  border: 1px solid black;
+  border-bottom: 1px solid #000;
   margin: auto;
   margin-bottom: 75px;
 }
@@ -71,54 +71,99 @@ background-size: 20px 40px;
 
 @keyframes cactusMov  {
   0%{
-
-
     left:721px;
-
-
-
   }
-  5%{
-    left:681px;
-  }
-  10%{
-    left:621px;
-  }
-  20%{
- left: 581px;
-  }
-  30%{
-    left: 521;
-  }
-  40%{
-    left:481px;
-  }
-  50%{
-    left:421px;
-  }
-  55%{
-    left: 381px;
-  }
-  60%{
-    left: 321px;
-  }
-  70%{
-    left: 281px;
-  }
-  80%{
-    left:221px;
-  }
-  85%{
-    left: 181px;
-  }
-  90%{
-    left: 121;
-  }
-95%{
-  left: 60.5px;
+1%{left: 710px;}
+1%{
+  left: 710px;
 }
-  100%{
-    left:0px
-  }
+2%{
+left: 700px;
+}
+3%{
+left: 690px;
+}
+5%{
+  left:680px;
+}
+10%{
+  left:621px;
+}
+11%{
+  left: 610px;
+}
+12%{
+  left: 600px;
+}
+13%{
+  left: 590px;
+}
+14%{
+  left: 580px;
+}
+20%{
+left: 570px;
+}
+30%{
+  left: 521px;
+}
+40%{
+  left:480px;
+}
+41%{
+  left: 470px;
+}
+42%{
+  left: 460px;
+}
+43%{
+  left: 450px;
+}
+45%{
+  left: 440px;
+}
+46%{
+  left: 430px;
+}
+50%{
+  left:421px;
+}
+55%{
+  left: 380px;
+}
+60%{
+  left: 321px;
+}
+70%{
+  left: 280px;
+}
+80%{
+  left:221px;
+}
+85%{
+  left: 180px;
+}
+
+90%{
+  left: 121;
+}
+95%{
+left: 60px;
+}
+96%{
+left: 40px;
+}
+97%{
+left: 30px;
+}
+98%{
+left: 20px;
+}
+99%{
+left: 10px;
+}
+100%{
+  left:0px
+}
 
 }

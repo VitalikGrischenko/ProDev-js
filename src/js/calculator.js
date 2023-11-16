@@ -22,31 +22,34 @@ document.addEventListener('DOMContentLoaded', function () {
           result = num1 - num2;
           break;
         case '/':
+          console.log(1234)
           if (num2 !== 0) {
             result = num1 / num2;
           } else {
             alert('Ділення на нуль неможливе.');
             return;
           }
-          return;
+          break;
       }
   
       resultDisplay.textContent = ` Результат: ${result} `;
     }
 
-  
+     let operator = ''
     operationButtons.forEach(function (button) {
       button.addEventListener('click', function () {
         inputFields[0].focus();
-        inputFields[0].value += button.textContent;
+        // inputFields[0].value += button.textContent;
+      operator = button.getAttribute('data-operation')
+        button.classList.add('color-light');
       });
     });
   
     resultButton.addEventListener('click', function () {
-      performOperation(inputFields[0].value.slice(-1));
+      performOperation(operator);
     });
   
     resultDisplay.addEventListener('click', function () {
-      performOperation(inputFields[0].value.slice(-1));
+      performOperation(operator);
     });
   });

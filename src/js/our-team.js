@@ -9,10 +9,7 @@ let i = 0;
 const paginationButtons = document.querySelectorAll("[data-button=pagination]");
 const paginationList = document.querySelector(".team-pagonation__list");
 const paginationItems = paginationList.children;
-console.log(paginationItems);
-// const paginationButton1 = paginationButtons[0];
-// const paginationButton2 = paginationButtons[1];
-// const paginationButton3 = paginationButtons[2];
+// console.log(paginationItems);
 
 scrollRightButtonRef.addEventListener("click", (e) => {
   if (i < sliderItemsRef.length - 1) {

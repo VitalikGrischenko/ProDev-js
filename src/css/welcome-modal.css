@@ -34,6 +34,32 @@
   height: 316px;
   background-color: #fff;
   padding: 46px 92px 47px 92px;
+  /* padding: 46px 42px 0 42px; */
+  position: relative;
+}
+
+.welcome-modal__icon {
+  position: absolute;
+}
+
+.welcome-modal__icon:nth-child(1) {
+  left: 41px;
+  top: 154px;
+}
+
+.welcome-modal__icon:nth-child(2) {
+  left: 85px;
+  bottom: 56px;
+}
+
+.welcome-modal__icon:nth-child(3) {
+  right: 85px;
+  bottom: 56px;
+}
+
+.welcome-modal__icon:nth-child(4) {
+  right: 42px;
+  top: 154px;
 }
 
 .welcome-modal__title {

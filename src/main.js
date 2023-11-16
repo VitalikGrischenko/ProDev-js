@@ -11,4 +11,4 @@ import './js/welcome-modal';
 
 import './js/calculator';
 
-import './js/dino';
+// import './js/dino';

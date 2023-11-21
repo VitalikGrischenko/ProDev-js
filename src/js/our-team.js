@@ -36,6 +36,7 @@ scrollRightButtonRef.addEventListener("click", (e) => {
   }
 });
 
+
 scrollLeftButtonRef.addEventListener("click", () => {
   if (i > 0) {
     sliderItemsRef[i].classList.remove("is-show");

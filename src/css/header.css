@@ -136,3 +136,42 @@
 #toggle:checked + svg #stars {
   opacity: 1;
 }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 1);
+  width: 160px;
+  margin-top: 5px;
+  border-radius: 0px 0px 20px 20px;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  background: #FFF;
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(241, 241, 241, 1);
+}
+
+
+.dropdown-content a:hover{
+border-radius: 20px 20px 20px 20px;
+background: #F1F1F1;
+}
+
+
+
+.header__link:hover + .dropdown-content {
+  display: block;
+}

@@ -39,8 +39,11 @@ document.addEventListener('DOMContentLoaded', function () {
     operationButtons.forEach(function (button) {
       button.addEventListener('click', function () {
         inputFields[0].focus();
-        // inputFields[0].value += button.textContent;
       operator = button.getAttribute('data-operation')
+        operationButtons.forEach(function (btn) {
+          btn.classList.remove('color-light');
+        });
+  
         button.classList.add('color-light');
       });
     });

@@ -8,8 +8,6 @@ import './js/bigger-number';
 import './js/footer-modal';
 import './js/welcome-modal';
 import './js/dino';
-// import './js/calculator-js';
-// import './js/calculator';
 import './js/football';
 import'./js/scintists';
 import './js/calculator';
@@ -17,4 +15,4 @@ import './js/time-calculator';
 import './js/theme';
 
 // import './js/dino';
-// import './js/dino';
+import './js/dropdown';

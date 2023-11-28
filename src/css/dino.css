@@ -21,13 +21,12 @@
 #dino-game {
   width: 50px;
   height: 50px;
-  background-image: url('../img/dino/trex.png');
+  background-image: url("../img/dino/trex.png");
   background-size: 50px 50px;
   position: relative;
   top: 191px;
-
-
-
+  /* mix-blend-mode: darken; */
+  mix-blend-mode: color-burn;
 }
 
 #cactus {
@@ -36,12 +35,10 @@
   position: relative;
   top: 151px;
   left: 700px;
-
-background-image: url('../img/dino/cactus.png');
-background-size: 20px 40px;
-
+  background-image: url("../img/dino/cactus.png");
+  background-size: 20px 40px;
+  mix-blend-mode: color-burn;
 }
-
 
 .jump {
   animation: jump 0.3s linear;
@@ -49,121 +46,122 @@ background-size: 20px 40px;
 
 @keyframes jump {
   0% {
-    top:150px;
+    top: 150px;
   }
-  30%{
-    top:130px;
+  30% {
+    top: 130px;
   }
-  50%{
+  50% {
     top: 80px;
   }
-  80%{
-    top:130px;
+  80% {
+    top: 130px;
   }
-  100%{
-    top:150px;
+  100% {
+    top: 150px;
   }
 }
 
-.cactusMov{
-  animation:cactusMov  1.8s infinite linear;
+.cactusMov {
+  animation: cactusMov 1.8s infinite linear;
 }
 
-@keyframes cactusMov  {
-  0%{
-    left:721px;
+@keyframes cactusMov {
+  0% {
+    left: 721px;
   }
-1%{left: 710px;}
-1%{
-  left: 710px;
-}
-2%{
-left: 700px;
-}
-3%{
-left: 690px;
-}
-5%{
-  left:680px;
-}
-10%{
-  left:621px;
-}
-11%{
-  left: 610px;
-}
-12%{
-  left: 600px;
-}
-13%{
-  left: 590px;
-}
-14%{
-  left: 580px;
-}
-20%{
-left: 570px;
-}
-30%{
-  left: 521px;
-}
-40%{
-  left:480px;
-}
-41%{
-  left: 470px;
-}
-42%{
-  left: 460px;
-}
-43%{
-  left: 450px;
-}
-45%{
-  left: 440px;
-}
-46%{
-  left: 430px;
-}
-50%{
-  left:421px;
-}
-55%{
-  left: 380px;
-}
-60%{
-  left: 321px;
-}
-70%{
-  left: 280px;
-}
-80%{
-  left:221px;
-}
-85%{
-  left: 180px;
-}
+  1% {
+    left: 710px;
+  }
+  1% {
+    left: 710px;
+  }
+  2% {
+    left: 700px;
+  }
+  3% {
+    left: 690px;
+  }
+  5% {
+    left: 680px;
+  }
+  10% {
+    left: 621px;
+  }
+  11% {
+    left: 610px;
+  }
+  12% {
+    left: 600px;
+  }
+  13% {
+    left: 590px;
+  }
+  14% {
+    left: 580px;
+  }
+  20% {
+    left: 570px;
+  }
+  30% {
+    left: 521px;
+  }
+  40% {
+    left: 480px;
+  }
+  41% {
+    left: 470px;
+  }
+  42% {
+    left: 460px;
+  }
+  43% {
+    left: 450px;
+  }
+  45% {
+    left: 440px;
+  }
+  46% {
+    left: 430px;
+  }
+  50% {
+    left: 421px;
+  }
+  55% {
+    left: 380px;
+  }
+  60% {
+    left: 321px;
+  }
+  70% {
+    left: 280px;
+  }
+  80% {
+    left: 221px;
+  }
+  85% {
+    left: 180px;
+  }
 
-90%{
-  left: 121;
-}
-95%{
-left: 60px;
-}
-96%{
-left: 40px;
-}
-97%{
-left: 30px;
-}
-98%{
-left: 20px;
-}
-99%{
-left: 10px;
-}
-100%{
-  left:0px
-}
-
+  90% {
+    left: 121;
+  }
+  95% {
+    left: 60px;
+  }
+  96% {
+    left: 40px;
+  }
+  97% {
+    left: 30px;
+  }
+  98% {
+    left: 20px;
+  }
+  99% {
+    left: 10px;
+  }
+  100% {
+    left: 0px;
+  }
 }

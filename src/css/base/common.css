@@ -28,9 +28,31 @@ body {
   background-color: #000;
 }
 
-/* .main {
-  background-image: url(../../img/background.png);
+.main {
+  /* background-image: url(../../img/background.png);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+}
+
+/* .main-box {
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1090px;
 } */
+
+/* section {
+  background-color: #fff;
+  width: 1090px;
+} */
+
+body {
+  transition-duration: 100ms;
+  transition-delay: 50ms;
+}
+
+button {
+  transition-duration: 100ms;
+  transition-delay: 50ms;
+}

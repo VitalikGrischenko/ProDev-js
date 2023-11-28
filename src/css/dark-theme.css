@@ -1,0 +1,79 @@
+.dark-theme {
+  background-color: rgb(30, 30, 30);
+}
+
+/* .dark-theme input {
+  background: #f6f1f1;
+} */
+
+.dark-theme p,
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3,
+.dark-theme a {
+  color: #fff;
+}
+
+.dark-theme .time-calculator__line {
+    border-bottom: 1px dashed #fff;
+}
+
+.dark-theme .computer-option__button {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark-theme .paper__button {
+    background-color: #fff;
+}
+
+.dark-theme .footer-modal-box {
+    background-color: rgb(75, 75, 75);
+}
+
+.dark-theme .welcome-modal-box {
+    background-color: rgb(75, 75, 75);
+}
+
+.dark-theme .welcome-modal__label{
+    color: #fff;
+}
+
+.dark-theme .welcome-modal__button {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark-theme .birth-search__button {
+    background-color: #fff;
+    height: 35px;
+}
+
+.dark-theme .guess-number-search__button {
+    background-color: #fff;
+    height: 37px;
+}
+
+.dark-theme .calculator__button, .dark-theme .calculator__result{
+    background-color: #fff;
+    color: #000;
+}
+
+.dark-theme .time-calculator__button {
+    background-color: #fff;
+    height: 38px;
+}
+
+.dark-theme .scientists-filter__button {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark-theme .footer__button {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark-theme .container::before {
+    background-color: #fff;
+}

@@ -61,6 +61,8 @@
   font-weight: 400;
   line-height: normal;
   margin-top: 20px;
+  max-width: 315px;
+  text-align: center;
 }
 
 .team-slider__button {

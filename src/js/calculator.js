@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const operationButtons = document.querySelectorAll('.calculator__button');
     const resultButton = document.querySelector('.calculator__result');
     const resultDisplay = document.querySelector('.calculator-result__button');
+    const erorText = document.querySelector('[data-eror=calculator]')
 
 
     function performOperation(operator) {
@@ -25,8 +26,10 @@ document.addEventListener('DOMContentLoaded', function () {
           console.log(1234)
           if (num2 !== 0) {
             result = num1 / num2;
+            erorText.textContent = '';
           } else {
-            alert('Ділення на нуль неможливе.');
+            // alert('Ділення на нуль неможливе.');
+            erorText.textContent = 'Ділення на нуль неможливе';
             return;
           }
           break;
